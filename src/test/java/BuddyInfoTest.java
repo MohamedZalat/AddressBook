@@ -56,13 +56,13 @@ public class BuddyInfoTest {
     @Test
     public void testSetAddress() {
         budInfo.setAddress("2468");
-        assertEquals("Should be 1111 now.", "2468", budInfo.getPhoneNumber());
+        assertEquals("Should be 1111 now.", "2468", budInfo.getAddress());
     }
 
     @Test
     public void testGetAddress() {
         budInfo.setAddress("2468");
-        assertEquals("Should be 1111 now.", "2468", budInfo.getPhoneNumber());
+        assertEquals("Should be 1111 now.", "2468", budInfo.getAddress());
     }
 
 }
