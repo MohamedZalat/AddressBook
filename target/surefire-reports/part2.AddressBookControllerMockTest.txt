@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: part2.AddressBookControllerMockTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.448 s - in part2.AddressBookControllerMockTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.139 s - in part2.AddressBookControllerMockTest
