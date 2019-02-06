@@ -44,7 +44,7 @@ public class BuddyInfoTest {
 
     @Test
     public void testGetPhoneNumber() {
-        assertEquals("The phoneNum should be 1234.", 1234, budInfo.getPhoneNumber());
+        assertEquals("The phoneNum should be 1234.", "1234", budInfo.getPhoneNumber());
     }
 
     @Test
