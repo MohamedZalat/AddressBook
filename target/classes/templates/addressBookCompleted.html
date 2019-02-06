@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Address book created</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Created an address book:</h1>
+<p th:text="'id: ' + ${addressBook.id}" />
+<a href="/addressbook">Create a new addressbook</a><br>
+<a href="/buddy">Add buddies</a><br>
+<a href="/">home</a>
+</body>
+</html>
