@@ -12,6 +12,7 @@ public class BuddyInfo {
 
     private String name;
     private String phoneNumber;
+    private String address;
 
     public BuddyInfo(String name, String phoneNumber) {
         this.name = name;
@@ -26,6 +27,10 @@ public class BuddyInfo {
         return this.name;
     }
 
+    public String getAddress() {
+        return this.address;
+    }
+
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -36,6 +41,10 @@ public class BuddyInfo {
 
     public void setPhoneNumber(String phoneNum) {
         this.phoneNumber = phoneNum;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public Long getId() {
